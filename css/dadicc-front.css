@@ -1,0 +1,344 @@
+/**
+ * @package: Dadi Cookie Consent Lite
+ * frontend stylesheet
+ */
+
+#dadiccCookieAlert p,
+#dadiccCookieAlertNoscript p,
+#dadiccCookieAlertSmall p,
+#dadiccPopup p {
+    margin-bottom: 1.5em;
+}
+
+#dadiccCookieAlert em,
+#dadiccCookieAlertNoscript em,
+#dadiccCookieAlertSmall em,
+#dadiccPopup em,
+#dadiccCookieAlert i,
+#dadiccCookieAlertNoscript i,
+#dadiccCookieAlertSmall i,
+#dadiccPopup i{
+    font-style: italic;
+}
+
+#dadiccCookieAlert strong,
+#dadiccCookieAlertNoscript strong,
+#dadiccCookieAlertSmall strong,
+#dadiccPopup strong,
+#dadiccCookieAlert b,
+#dadiccCookieAlertNoscript b,
+#dadiccCookieAlertSmall b,
+#dadiccPopup b{
+    font-weight: bold;
+}
+
+#dadiccCookieAlert u,
+#dadiccCookieAlertNoscript u,
+#dadiccCookieAlertSmall u,
+#dadiccPopup u{
+    font-weight: bold;
+}
+
+#dadiccCookieAlert,
+#dadiccCookieAlertNoscript,
+#dadiccCookieAlertSmall,
+#dadiccPopup {
+    font-family: "Open Sans", helvetica, arial, sans-serif;
+}
+
+#dadiccCookieAlertSmall {
+    position: fixed;
+    bottom: 32px;
+    background-color: #2d2d2d;
+    right: 32px;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: bold;
+    font-size: .8em;
+    z-index: 99999;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.32);
+}
+
+#dadiccCookieAlertSmall .dadicc-wrap-banner {
+    padding: 10px;
+}
+
+#dadiccCookieAlertSmall.dadicc-hide-small-banner {
+    display: none;
+}
+
+#dadiccCookieAlertSmall.dadicc-left {
+    right: auto;
+    left: 32px;
+}
+
+#dadiccCookieAlertSmall.dadicc-center {
+    right: auto;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#dadiccCookieAlertSmall.dadicc-inverse {
+    bottom: auto;
+    top: 32px;
+}
+
+#dadiccCookieAlertSmall p {
+    margin: 0;
+}
+
+#dadiccCookieAlertSmall.dadicc-cookie-banner-lite-small .dadicc-wrap-small-banner-text {
+    font-weight: bold;
+}
+
+/** Big Banner **/
+
+#dadiccCookieAlert,
+#dadiccCookieAlertNoscript {
+    background-color: #2d2d2d;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 99999;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.32941176470588235);
+    font-size: .8em;
+    max-width: 100%;
+    font-weight: bold;
+    color: #fff;
+}
+
+#dadiccCookieAlert .dadicc-wrap-banner,
+#dadiccCookieAlertNoscript .dadicc-wrap-banner{
+    padding: 25px;
+}
+
+#dadiccCookieAlert .dadicc-wrap-text-banner,
+#dadiccCookieAlertNoscript .dadicc-wrap-text-banner{
+    font-weight: normal;
+}
+
+#dadiccCookieAlert.dadicc-inverse,
+#dadiccCookieAlertNoscript.dadicc-inverse {
+    bottom: 0;
+    top: auto;
+}
+
+#dadiccCookieAlert.dadicc-hide-big-banner {
+    display: none;
+}
+
+#dadiccCookieAlert .dadicc-footer-cookie-alert,
+#dadiccCookieAlertNoscript .dadicc-footer-cookie-alert {
+    border-top: 1px solid rgba(255, 255, 255, 0.2784313725490196);
+    padding-top: 25px;
+    text-align: right;
+}
+
+.dadicc-cookie-banner .dadicc-agree,
+.dadicc-cookie-banner .dadicc-more-info,
+.dadicc-cookie-banner .dadicc-hide {
+    padding: 3px 10px;
+    margin: 0 0 0 5px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+}
+
+.dadicc-cookie-banner .dadicc-input-agree {
+    border: 0 none;
+    border-radius: 0;
+    padding: 4px 10px;
+    font-size: 1.05em;
+}
+
+.dadicc-cookie-banner .dadicc-agree {
+    background-color: #005899;
+}
+
+.dadicc-cookie-banner .dadicc-more-info {
+    background-color: #900;
+}
+
+.dadicc-cookie-banner .dadicc-hide {
+    background-color: #b99c56;
+}
+
+/** Keep neutral bg color **/
+
+#dadiccCookieAlert.dadicc-bg-white,
+#dadiccCookieAlertNoscript.dadicc-bg-white,
+#dadiccCookieAlertSmall.dadicc-bg-white, 
+#dadiccPopup.dadicc-bg-white {
+    background-color: #fff;
+    color: #444;
+}
+
+#dadiccCookieAlert.dadicc-bg-black,
+#dadiccCookieAlertNoscript.dadicc-bg-black,
+#dadiccCookieAlertSmall.dadicc-bg-black, 
+#dadiccPopup.dadicc-bg-black {
+    background-color: #000;
+    color: #f6f6f6;
+}
+
+#dadiccPopup.dadicc-bg-white .dadicc-label {
+    color: #f6f6f6;
+}
+
+#dadiccCookieAlert.dadicc-bg-white .dadicc-footer-cookie-alert,
+#dadiccCookieAlertNoscript.dadicc-bg-white .dadicc-footer-cookie-alert{
+    border-color: #f3f3f3;
+}
+
+#dadiccCookieAlert.dadicc-bg-black .dadicc-footer-cookie-alert,
+#dadiccCookieAlertNoscript.dadicc-bg-black .dadicc-footer-cookie-alert{
+    border-color: #525252;
+}
+
+#dadiccCookieAlert.dadicc-cookie-banner-lite p {
+    font-weight: bold;
+}
+/** Replace Box **/
+
+.dadicc-msg-replace {
+    margin: 1.5em 0;
+}
+
+.dadicc-no-consent-global {
+    background-color: #f3f3f3;
+    border: 1px solid #ddd;
+}
+
+.dadicc-no-consent-service {
+    background-color: #fff9db;
+    border: 1px solid #f9e9b9;
+}
+
+.dadicc-msg-replace .dadicc-label {
+    padding: 10px;
+    display: block;
+    font-style: italic;
+    font-size: .9em;
+    margin: 0;
+}
+
+.dadicc-no-consent-global .dadicc-label {
+    border-bottom: 1px solid #ddd;
+}
+
+.dadicc-no-consent-service .dadicc-label {
+    border-bottom: 1px solid #f9e9b9;
+}
+
+.dadicc-msg-replace .dadicc-text-footer {
+    padding: 5px 10px;
+    display: block;
+    font-size: .85em;
+    color: #888;
+}
+
+.dadicc-no-consent-global .dadicc-text-footer {
+    background-color: #f9f9f9;
+}
+
+.dadicc-no-consent-service .dadicc-text-footer {
+    background-color: #fffbe8;
+}
+
+/** Consent in cookie policy **/
+
+.dadicc-wrap-input-consent {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f8f8f8;
+    border: 1px solid #eaeaea;
+    font-weight: bold;
+    padding-top: 12px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.dadicc-label-consent {
+    margin-left: 10px;
+    vertical-align: 1px;
+}
+
+/**
+ * Other options 
+ */
+.dadicc-generic-box {
+    border: 1px solid #e2e2bc;
+    background-color: #f5f5e9;
+    padding: 10px 20px;
+    margin-top: 7px;
+}
+
+/** Devices**/
+
+/************************************************************************************
+smaller than 640 ***
+*************************************************************************************/
+@media screen and (max-width: 640px) {
+    
+    #dadiccCookieAlert .dadicc-hide {
+        position: absolute;
+        top: 0;
+        right: 0;
+        border-radius: 0 0 0 4px;
+    }
+    
+    #dadiccCookieAlertSmall {
+        right: 0;
+        bottom: 0px;
+        border-radius: 0px;
+        display: block;
+    }
+    
+    #dadiccPopup {
+        width: 90%;
+        left: 5%;
+        margin-left: auto !important;
+    }
+    
+    #dadicc-read-policy-on-air {
+        top: 0;
+        height: 100%;
+        max-width: 100%;
+        border: 0;
+        left: 0;
+        margin-left: auto !important;
+        border-radius: 0;
+    }
+    
+    #dadicc-read-policy-on-air .dadicc-pcontainer {
+        height: 100%;
+    }
+    
+    .dadicc-cookie-banner .dadicc-agree, .dadicc-cookie-banner .dadicc-more-info {
+        display: block;
+        margin: 0;
+        padding: 4px 10px;
+        text-align: center;
+    }
+    
+    .dadicc-cookie-banner .dadicc-more-info {
+        margin-top: 4px;
+    }
+    
+    .dadicc-cookie-banner .dadicc-more-info, #dadiccCookieAlertSmall .dadicc-agree {
+        margin-bottom: 4px;
+    }
+    
+    .dadicc-wrap-text-banner {
+        margin-top: 10px;
+    }
+    
+    .dadicc-wrap-small-banner-text {
+        display: block;
+        margin-bottom: 15px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2784313725490196);
+        padding-bottom: 10px;
+    }
+
+}
+
