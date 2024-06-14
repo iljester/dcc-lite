@@ -1,5 +1,5 @@
 === Dadi Cookie Consent Lite ===
-Contributors: iljester <thejester72@gmail.com>
+Contributors: iljester
 Tags: cookie, consent, privacy, eu cookie law, gdpr
 Requires at least: 4.8
 Tested up to: 6.5.3
