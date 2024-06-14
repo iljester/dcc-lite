@@ -1,5 +1,5 @@
 === Dadi Cookie Consent Lite ===
-Contributors: iljester
+Contributors: iljester <thejester72@gmail.com>
 Tags: cookie, consent, privacy, eu cookie law, gdpr
 Requires at least: 4.8
 Tested up to: 6.5.3
@@ -83,6 +83,7 @@ So, if you want to be sure that your website complies with your country's privac
 * Fixed bugs. After the click, the banner 
 warning about the lack of a cache system or the 
 detection of an unsupported cache system will be permanently removed.
+Other fixed bugs.
 
 = 1.1.4 - 01/06/2024 =
 * Fixed some bugs in blocking system
@@ -97,13 +98,12 @@ detection of an unsupported cache system will be permanently removed.
 = 1.1.1 - 31/10/2020 =
 * Fixed some little bugs
 
-= 1.1 - 2018/11/10 =
+= 1.1 - 10/11/2018 =
 * Fixed some little bugs
 * Added box to get premium version
 
-= 1.0 - 2018/09/29 =
+= 1.0 - 29/09/2018 =
 * Initial version
 
 == Upgrade Notice ==
-= 1.1 =
 * No upgrade notice
