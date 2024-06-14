@@ -51,6 +51,9 @@ It is a task of the website administrator to make these legal checks.'), DADICC_
             <?php printf( esc_html__('DCC Plugin Page: %s', DADICC_DOMAIN ), '<a target="_blank" href="https://www.iljester.com/portfolio/dadi-cookie-consent/">' . DADICC_PLUGIN_NAME . '</a>' ); ?>
         <br />
             <?php printf( esc_html__('Repository Wordpress%s: %s', DADICC_DOMAIN ), ( dadicc_is_full_version() ? '<span class="dadicc-asterisk">*</span>' : '' ), '<a target="_blank" href="https://wordpress.org/plugins/dadi-cookie-consent-lite/">' . DADICC_PLUGIN_NAME . '</a>' ); ?>
+        <br />
+            <?php printf( esc_html__('On Github%s: %s', DADICC_DOMAIN ), ( dadicc_is_full_version() ? '<span class="dadicc-asterisk">*</span>' : '' ), '<a target="_blank" href="https://github.com/iljester/dcc-lite">' . DADICC_PLUGIN_NAME . '</a>' ); ?>
+        
         <?php if( dadicc_is_full_version() ) : ?>
         <span class="dadicc-note dashicons-before dashicons-admin-post"><?php esc_html_e('Only lite version', DADICC_DOMAIN ); ?></span>
         <?php endif; ?>
