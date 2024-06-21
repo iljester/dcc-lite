@@ -58,7 +58,7 @@ Yes, they are, but it is strongly discouraged to use an outdated version of the 
 
 ## Credits Engine
 
-- This plugin use some icons of FontAwesome (v. 4.7), and generate by Fontello. Font Awesome is realesed under SIL license.
+This plugin use some icons of FontAwesome (v. 4.7), and generate by Fontello. Font Awesome is realesed under SIL license.
 
 ## Screenshots
 
