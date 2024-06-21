@@ -1,20 +1,8 @@
-=== Dadi Cookie Consent Lite ===
-Contributors: iljester
-Tags: cookie, consent, privacy, eu cookie law, gdpr
-Requires at least: 4.8
-Tested up to: 6.5.3
-Stable tag: 1.1.5
-Requires PHP: 5.3 
-Requires CP: 2.1
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+# Dadi Cookie Consent Lite
 
-Useful plugin to block privacy-invasive cookies.
-
-== Description ==
 Dadi Cookie Consent Lite simply helps website ammministrator to block cookies and potentially invasive content of user privacy.
 
-= Lite Version =
+## Features
 1. Cookie Policy Page Link in banner
 2. Prevent blocking javascript and iframes
 3. Prevent blocking of all local cookies
@@ -30,55 +18,55 @@ Dadi Cookie Consent Lite simply helps website ammministrator to block cookies an
 13. Consent on navigation
 14. Banners text and labels customizable
 
-= Premium Version =
-The premium version is currently under development. For further information, contact the author.
-
-== Installation ==
+## Installation
 1. Download and extract plugin files to a wp-content/plugin directory.
-2. Activate the plugin through the WordPress admin interface.
+2. Activate the plugin through the ClassicPress admin interface.
 3. Customize Dadi Cookie Consent Lite in DCC Lite.
-If you have any questions or problems please make a post here: http://wordpress.org/tags/dadi-cookie-consent-lite
 
-== Frequently Asked Questions ==
+If you have any questions or problems please make a post on Github: https://github.com/iljester/dcc-lite
 
-= There is documentation on Dadi Cookie Consent Lite? =
-Currently the documentation is not yet available, but will be soon!
+## Frequently Asked Questions
+*There is documentation on Dadi Cookie Consent Lite?*
+Currently the documentation is not yet available, but the use is quite intuitive.
 
-= Is it necessary to configure the plugin once installed? =
+*Is it necessary to configure the plugin once installed?*
 The plugin works even without special configurations. However it is always better to configure it according to your needs.
 
-= Is it necessary to indicate a cookie or privacy policy? =
+*Is it necessary to indicate a cookie or privacy policy?*
 Although the plugin is not blocked, if a policy is not indicated, it is required that the Cookie Policy (the page) is indicated in the appropriate section.
 
-= Does Dadi Cookie Consent provide standalone features? =
+*Does Dadi Cookie Consent provide standalone features?*
 Dadi Cookie Consent Lite provide shortcode [dadicc-block-lite]content to block[/dadicc-block-lite]
 
-= Are the banners customizable? =
+*Are the banners customizable?*
 Is available i two colors: black and white.
 
-= Dadi Cookie Consent Lite works with cache systems? =
-With Dadi Cookie Consents is compatible with WP Supercache and W3TC.
+*Dadi Cookie Consent Lite works with cache systems?*
+With Dadi Cookie Consents is compatible with WP Supercache and W3TC WP plugins.
 
-= Does Dadi Cookie Consent block all cookies? =
+*Does Dadi Cookie Consent block all cookies?*
 Yes, it should block all cookies. But clearly, it's a script and may have some unknown bugs that cause 
-unwanted cookies to pass before consent. If this happens, please report it in the forum.
+unwanted cookies to pass before consent. If this happens, please report it in the issue section.
 
-= Does Dadi Cookie Consent guarantee compliance? =
+*Does Dadi Cookie Consent guarantee compliance?*
 DDC cannot guarantee compliance with the European GDPR rules or any other privacy and cookie rules.
 We are not lawyers. We simply create a plugin that try to block cookies and those who generate them. 
 So, if you want to be sure that your website complies with your country's privacy/cookie rules, consult a lawyer.
 
-== Credits Engine ==
+*Previous versions in WP repository are compatible with ClassicPress?*
+Yes, they are, but it is strongly discouraged to use an outdated version of the plugin.
+
+## Credits Engine
 
 - This plugin use some icons of FontAwesome (v. 4.7), and generate by Fontello. Font Awesome is realesed under SIL license.
 
-== Screenshots ==
+## Screenshots
 
 1. Page Settings
 2. Mini Banner
 3. Extended Banner
 
-== Changelog ==
+### Changelog
 
 = 1.1.5 - 14/06/2024 =
 * Fixed bugs. After the click, the banner 
